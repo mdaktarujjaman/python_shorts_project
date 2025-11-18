@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://sarwurhossan_db_user:tWWfms3bbmazF6At@cluster1.plkjvik.mongodb.net/") # Not a good idea to expose credentials like this in production code!
+client = MongoClient("mongodb+srv://your_user_name:your_pass@cluster1.plkjvik.mongodb.net/") # Not a good idea to expose credentials like this in production code!
 
 db = client["youtube_manager_db"]
 video_collection = db["videos"]
